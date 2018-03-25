@@ -1,0 +1,5 @@
+# SIMS
+student information management system
+学生信息管理系统：
+StudentDBServer文件夹中的是系统服务端代码，不过没有数据库文件，具体数据库样式可以参考model.java文件
+StudentClient文件夹中的是系统android客户端代码
