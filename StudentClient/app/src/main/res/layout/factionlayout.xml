@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <Button
+        android:id="@+id/a_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="增加信息"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/d_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除信息"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/u_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改信息"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/f_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询信息"/>
+
+
+</LinearLayout>
